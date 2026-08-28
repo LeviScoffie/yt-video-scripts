@@ -23,6 +23,20 @@ scripts/
 
 Each `SKILL.md` follows the [Claude Code skill format](https://docs.claude.com/en/docs/claude-code) — YAML frontmatter (`name`, `description`) plus instructions. Install this as a plugin, or drop the `skills/` folder (or individual skill folders) into a project's `.claude/skills/` directory to use them directly.
 
+## Two ways to use these skills
+
+Both paths load the same `SKILL.md` files and both auto-trigger by matching a message against a skill's `description` — no explicit invocation needed either way. They differ in *how* they're activated, and that difference matters for anything that reads another file (like the `_shared/` references below).
+
+| | Symlink into `.claude/skills/` | Plugin (`--plugin-dir` or installed) |
+|---|---|---|
+| Activation | Automatic — Claude Code discovers `.claude/skills/` by walking up from wherever you're working | Explicit — needs `--plugin-dir`, or a proper install via a marketplace |
+| Scope | Only active inside the project tree containing that `.claude/skills/` folder | Active for the whole session, regardless of directory |
+| Direct invocation | Bare skill name only, no slash command | Namespaced slash commands (`/yt-skills:youtube-hook-writer`) |
+| `${CLAUDE_PLUGIN_ROOT}` | Doesn't expand — not recognized as a "real" plugin load | Expands correctly |
+| Reading files via symlinks | Fragile — Claude Code's `Read` tool normalizes `../` lexically rather than following the symlink physically, so a relative path through a symlinked skill folder can silently fail even though it resolves fine in a shell (`ls`/`realpath`) | Not applicable — no symlink hop, files are read straight from the plugin's own directory |
+
+This repo is used both ways: symlinked into `~/Desktop/video-scripts/.claude/skills/` for day-to-day auto-triggered writing, and loadable as a plugin (`claude --plugin-dir`) for direct slash-command invocation or testing. The symlink path is why the shared-file references below use a hardcoded absolute path instead of a relative one — see that section for the full story.
+
 ## Skills
 
 | Skill | Stage | What it does |

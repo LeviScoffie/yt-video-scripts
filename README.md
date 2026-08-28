@@ -45,6 +45,10 @@ Most of the writer/QC skills read two shared files for consistent voice and qual
 - `skills/_shared/ai-slop-ban-list/ai-slop-ban-list.md` — banned AI-sounding phrases and patterns
 - `skills/_shared/voice-and-style.md` — the channel's voice, rhythm, and vocabulary
 
+**These are referenced by hardcoded absolute path** (`/Users/leviscoffie/Desktop/yt-skills/skills/_shared/...`) inside each skill's `SKILL.md`, not a relative path. This was a deliberate fix, not an oversight: skills used here are loaded two ways — as symlinks in a project's `.claude/skills/` (the day-to-day `video-scripts` workflow) and as an installed plugin. Claude Code's `Read` tool normalizes `../` lexically rather than following symlinks physically, so a relative path or `${CLAUDE_SKILL_DIR}`-based path silently breaks under the symlinked setup, even though it looks fine to `ls`/`realpath` in a shell. `${CLAUDE_PLUGIN_ROOT}` doesn't help either — it's substituted only when a plugin is loaded via the actual plugin mechanism, not for skills reached through a `.claude/skills/` symlink. A hardcoded absolute path is the only thing that works identically in both contexts.
+
+**If this repo is ever moved or installed on a different machine**, every hardcoded path needs updating — the two shared-file references appear across all 9 skills that use them (`grep -rn '_shared' skills/*/SKILL.md`).
+
 Every skill's `references/` and `assets/` subfolders are placeholders (`TODO.md`) — add supporting material there as needed.
 
 ## Direct invocation

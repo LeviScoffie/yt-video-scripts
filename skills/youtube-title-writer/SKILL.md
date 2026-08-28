@@ -111,7 +111,7 @@ Search the target niche and extract from top titles:
 - **Audience words:** what does this niche call its people? ("clients" vs "customers")
 - **Action words:** how does it describe results? ("get clients" vs "sign clients")
 
-Read `../_shared/voice-and-style.md` if available — it holds the channel's exact vocabulary and audience labels.
+Read `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/voice-and-style.md` if available — it holds the channel's exact vocabulary and audience labels.
 
 ### Step 9 — Generate 30+ titles
 
@@ -164,4 +164,4 @@ Why: [one sentence]
 - [ ] None sound generic or AI-written
 - [ ] All match what the video is actually about
 - [ ] Every title maps 1:1 to an extracted framework
-- [ ] Titles use the channel's actual audience vocabulary (check ../_shared/voice-and-style.md if available)
+- [ ] Titles use the channel's actual audience vocabulary (check /Users/leviscoffie/Desktop/yt-skills/skills/_shared/voice-and-style.md if available)

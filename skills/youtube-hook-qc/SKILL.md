@@ -9,7 +9,7 @@ Takes a written hook (and its transition line if present) and the body section i
 
 The hook and any transition line live at the TOP of the current section. The transition grounds the viewer in context from the previous section. The hook builds the curiosity. Neither belongs at the end of the previous section.
 
-**Before running any check:** read `../_shared/ai-slop-ban-list/ai-slop-ban-list.md` (the floor) AND `../_shared/voice-and-style.md` (the voice). Grade the hook against both.
+**Before running any check:** read `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/ai-slop-ban-list/ai-slop-ban-list.md` (the floor) AND `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/voice-and-style.md` (the voice). Grade the hook against both.
 
 ---
 
@@ -71,7 +71,7 @@ Does the hook say something that hasn't already been said in the intro or a prev
 - Sounds like a real person talking, not a copywriter performing
 
 ### Check 10 — Anti-slop and voice pass (REQUIRED)
-Re-read `../_shared/ai-slop-ban-list/ai-slop-ban-list.md` and `../_shared/voice-and-style.md`. Scan the hook against both.
+Re-read `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/ai-slop-ban-list/ai-slop-ban-list.md` and `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/voice-and-style.md`. Scan the hook against both.
 - **Fail:** Any banned opener, pompous verb, inflated adjective, throat-clearer, fake curiosity drumroll, or other pattern from the slop list
 - **Fail:** Any rule in the voice file the hook violates
 - **Fix:** Apply the correction. Don't flatten personality — fix AI defaults, keep the brand's voice.

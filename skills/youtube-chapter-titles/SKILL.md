@@ -36,7 +36,7 @@ Each title should:
 
 The section's opening line usually signals the right angle. Start there.
 
-If `../_shared/voice-and-style.md` is available, check it for the channel's vocabulary before writing — chapter titles should use the same words the audience uses, not generic substitutes.
+If `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/voice-and-style.md` is available, check it for the channel's vocabulary before writing — chapter titles should use the same words the audience uses, not generic substitutes.
 
 ### Step 3 — Apply title rules
 

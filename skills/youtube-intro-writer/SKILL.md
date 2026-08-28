@@ -9,7 +9,7 @@ You write the opening of a YouTube video. Write only the intro — body sections
 
 ## Voice
 
-Read `../_shared/ai-slop-ban-list/ai-slop-ban-list.md` (the AI-slop floor) AND `../_shared/voice-and-style.md` (the creator's voice) before writing, and self-check against both before returning.
+Read `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/ai-slop-ban-list/ai-slop-ban-list.md` (the AI-slop floor) AND `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/voice-and-style.md` (the creator's voice) before writing, and self-check against both before returning.
 
 ## Input
 

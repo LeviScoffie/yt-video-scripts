@@ -11,7 +11,7 @@ Each section must work as a standalone short or clip when the transition words a
 
 ## Voice
 
-Read `../_shared/ai-slop-ban-list/ai-slop-ban-list.md` (the AI-slop floor) AND `../_shared/voice-and-style.md` (the creator's voice) before writing, and self-check against both before returning.
+Read `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/ai-slop-ban-list/ai-slop-ban-list.md` (the AI-slop floor) AND `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/voice-and-style.md` (the creator's voice) before writing, and self-check against both before returning.
 
 ## Input
 
@@ -71,7 +71,7 @@ Run this on the actual drafted text for each variation — not from memory — b
 - [ ] Output includes both variations, each with a `**Variation [#] — [format]**` header, a `[Voice: ...]` line, and a "Why this works" line, followed by the closing question
 
 **Anti-slop and voice pass (REQUIRED):**
-Re-read `../_shared/ai-slop-ban-list/ai-slop-ban-list.md` and `../_shared/voice-and-style.md`, then run the two-pass scan the ban-list file itself defines — don't just skim it:
+Re-read `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/ai-slop-ban-list/ai-slop-ban-list.md` and `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/voice-and-style.md`, then run the two-pass scan the ban-list file itself defines — don't just skim it:
 
 - **Pass 1 (Tier A — zero exceptions):** scan the drafted section for every §1 rhetorical pattern, §2 formulaic opener, §3 formulaic closer. Check specifically for the patterns that slip through most often: negative parallelism ("it's not X, it's Y" in any form), anaphora, decorative lists, patronising analogy, phantom-future projection, false suspense transitions ("Here's the thing," "Here's why that matters," "Here's what changed," etc.), and triple-countdown constructions ("Not X. Not Y. Just Z."). Rewrite any match — zero instances allowed, "only used once" is not an exception.
 - **Pass 2 (Tier B — avoid clustering):** scan for clustering of §4 vocabulary, §5 structural patterns, §6 formatting tics (including em-dash overuse). Rewrite if clustered.

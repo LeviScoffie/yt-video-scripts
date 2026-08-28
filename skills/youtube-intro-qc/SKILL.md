@@ -7,7 +7,7 @@ description: QC and edit a YouTube intro. Takes the written intro and returns a 
 
 Takes a written intro and returns a revised, improved version. Not a report — the output is the fixed intro ready to use.
 
-**Before running any check:** read `../_shared/ai-slop-ban-list/ai-slop-ban-list.md` (the floor) AND `../_shared/voice-and-style.md` (the voice). Grade the draft against both. The final check enforces them explicitly — but they should inform every fix you make.
+**Before running any check:** read `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/ai-slop-ban-list/ai-slop-ban-list.md` (the floor) AND `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/voice-and-style.md` (the voice). Grade the draft against both. The final check enforces them explicitly — but they should inform every fix you make.
 
 ---
 
@@ -72,7 +72,7 @@ If two lines make the same core claim, cut the weaker one.
 - No closing recap that restates who the video is for → cut it
 
 ### Check 11 — Anti-slop and voice pass (REQUIRED)
-Re-read `../_shared/ai-slop-ban-list/ai-slop-ban-list.md` and `../_shared/voice-and-style.md`. Scan the intro against both.
+Re-read `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/ai-slop-ban-list/ai-slop-ban-list.md` and `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/voice-and-style.md`. Scan the intro against both.
 - **Fail:** Any banned opener, pompous verb, inflated adjective, throat-clearer, teacher-mode announcement, or other pattern from the slop list
 - **Fail:** Any rule in the voice file's quality checklist that the intro violates
 - **Fix:** Apply the correction the slop list or voice file calls for. Don't strip personality — fix AI defaults, keep the brand's voice.

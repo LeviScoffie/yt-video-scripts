@@ -7,7 +7,7 @@ description: QC and edit a YouTube video outline. Takes the written outline and 
 
 Takes a written outline and returns a revised, improved version. Not a report — the output is the fixed outline ready to use.
 
-**Before running any check:** read `../_shared/ai-slop-ban-list/ai-slop-ban-list.md` (the floor) AND `../_shared/voice-and-style.md` (the voice). The final check enforces both — but they should inform every fix you make.
+**Before running any check:** read `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/ai-slop-ban-list/ai-slop-ban-list.md` (the floor) AND `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/voice-and-style.md` (the voice). The final check enforces both — but they should inform every fix you make.
 
 ---
 
@@ -66,7 +66,7 @@ Is every point specific enough that a writer could pick it up and know exactly w
 - Target: 7–9 points for a standard 8–12 minute video
 
 ### Check 7 — Anti-slop and voice pass (REQUIRED)
-Re-read `../_shared/ai-slop-ban-list/ai-slop-ban-list.md` and `../_shared/voice-and-style.md`. Scan the outline against both.
+Re-read `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/ai-slop-ban-list/ai-slop-ban-list.md` and `/Users/leviscoffie/Desktop/yt-skills/skills/_shared/voice-and-style.md`. Scan the outline against both.
 - **Fail:** Any point title or description uses pompous verbs, inflated adjectives, showy nouns, or other slop-list patterns
 - **Fail:** Any structural pattern from the voice file that the outline violates
 - **Fix:** Apply corrections. Flag any point description that sounds like AI-generated filler rather than a specific insight.

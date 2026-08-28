@@ -15,6 +15,8 @@ skills/
     SKILL.md                      the skill itself (frontmatter + instructions)
     references/TODO.md            source docs, examples, style guides (fill in as needed)
     assets/TODO.md                templates, sample outputs (fill in as needed)
+commands/
+  <skill-name>.md                 one slash command per skill, for direct invocation
 scripts/
   build_plugin.py                 validates and packages the plugin into dist/
 ```
@@ -44,6 +46,10 @@ Most of the writer/QC skills read two shared files for consistent voice and qual
 - `skills/_shared/voice-and-style.md` — the channel's voice, rhythm, and vocabulary
 
 Every skill's `references/` and `assets/` subfolders are placeholders (`TODO.md`) — add supporting material there as needed.
+
+## Direct invocation
+
+Every skill also auto-triggers by description (e.g. asking to "write hooks for this section"). If Claude picks the wrong skill or you want to be explicit, call it directly with the matching slash command: `/yt-skills:youtube-hook-writer`, `/yt-skills:youtube-outline-qc`, etc. — one command per skill, same names, under `commands/`.
 
 ## Building the plugin
 

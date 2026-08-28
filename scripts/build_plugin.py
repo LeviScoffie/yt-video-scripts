@@ -49,6 +49,10 @@ def build_plugin(manifest: dict) -> tuple[Path, Path]:
 
     shutil.copytree(SKILLS_ROOT, plugin_root / "skills")
 
+    commands_src = ROOT / "commands"
+    if commands_src.is_dir():
+        shutil.copytree(commands_src, plugin_root / "commands")
+
     readme = ROOT / "README.md"
     if readme.is_file():
         shutil.copy2(readme, plugin_root / "README.md")

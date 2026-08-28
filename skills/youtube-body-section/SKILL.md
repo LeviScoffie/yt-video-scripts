@@ -49,6 +49,7 @@ Last 1-2 lines. Lands the lesson cleanly OR leaves an open loop. Never summarize
 Produce 2 variations. For each:
 
 **Variation [#] — [format used]**
+[Voice: passed] or [Voice: fixed — <what changed>]
 
 [Section copy. 200 words max, 300 absolute max. First person, brand voice.]
 
@@ -56,7 +57,9 @@ Produce 2 variations. For each:
 
 After both variations, ask: "Which direction do you want to go, or is there something you want to change?"
 
-## Self-check before you return it
+## Self-check before you return it (REQUIRED)
+
+Run this on the actual drafted text for each variation — not from memory — before including it in the output.
 
 - [ ] Hook sells the result, not the mechanism or lesson
 - [ ] Hook works cold with transition words removed
@@ -65,4 +68,12 @@ After both variations, ask: "Which direction do you want to go, or is there some
 - [ ] Real numbers or specific details used
 - [ ] Payoff closes the loop without restating the whole section
 - [ ] 200 words max (300 absolute)
-- [ ] Passes the AI-slop floor and the voice file
+- [ ] Output includes both variations, each with a `**Variation [#] — [format]**` header, a `[Voice: ...]` line, and a "Why this works" line, followed by the closing question
+
+**Anti-slop and voice pass (REQUIRED):**
+Re-read `../_shared/ai-slop-ban-list/ai-slop-ban-list.md` and `../_shared/voice-and-style.md`, then run the two-pass scan the ban-list file itself defines — don't just skim it:
+
+- **Pass 1 (Tier A — zero exceptions):** scan the drafted section for every §1 rhetorical pattern, §2 formulaic opener, §3 formulaic closer. Check specifically for the patterns that slip through most often: negative parallelism ("it's not X, it's Y" in any form), anaphora, decorative lists, patronising analogy, phantom-future projection, false suspense transitions ("Here's the thing," "Here's why that matters," "Here's what changed," etc.), and triple-countdown constructions ("Not X. Not Y. Just Z."). Rewrite any match — zero instances allowed, "only used once" is not an exception.
+- **Pass 2 (Tier B — avoid clustering):** scan for clustering of §4 vocabulary, §5 structural patterns, §6 formatting tics (including em-dash overuse). Rewrite if clustered.
+
+Set the variation's `[Voice: ...]` line to `[Voice: passed]` only if both passes are clean. Otherwise `[Voice: fixed — <one-line summary>]` and make sure the fix is reflected in the copy you return.

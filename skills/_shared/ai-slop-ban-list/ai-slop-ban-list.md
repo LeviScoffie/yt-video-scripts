@@ -110,10 +110,15 @@ Banned (non-exhaustive):
 - ✗ "Here's the thing." / "Here's the kicker." / "Here's where it gets interesting."
 - ✗ "Here's what most people miss." / "Here's what changed." / "Here's what shifted."
 - ✗ "Here's what surprised me." / "Here's what I learned." / "Here's what nobody tells you."
+- ✗ "Here's the part that matters."
 
 **Semantic test:** does the phrase NAME the revelation in the same beat, or tease that a revelation is coming? If it teases without naming — banned.
 
 **Acceptable substitutes** name the revelation immediately: "But the truth is [X]," "Once I figured out [specific X]," "Here's the truth about [specific topic] — [the truth itself]."
+
+**Colon-reveal variant.** Same violation, different shape: a noun phrase, a colon, then a dramatic lowercase reveal. "The detail that makes it work: a separate agent grades it." "The best part: it learns." In writing this reads as a cheap trick; spoken aloud it's a pause before a punch, so it's tempting to treat as harmless delivery — apply the same semantic test anyway. If the payoff after the colon is generic or could've been said plainly, it's banned. Say it as a plain sentence instead: "A separate agent does the grading, which is what makes it work."
+
+**Faux-insight framing.** A near-miss on the same pattern that flatters the writer/speaker as the lone expert rather than teasing a real reveal: "This is the part most people skip." / "What most people get wrong." / "The part everyone misses." Cut the setup and make the claim stand on its own: "The part everyone misses: distribution is the moat" becomes "Distribution is the moat."
 
 ### Pedagogical framing
 
@@ -150,12 +155,34 @@ Do not use throat-clearing transitions, or non-specific filler that pretends to 
 
 **The pub test:** would two friends say this to each other over lunch? If no — rewrite. The fix is always to name the specific thing the filler is gesturing at.
 
+**The portability test:** could this line move unchanged into a video about a completely different topic, product, or niche? If yes, it's filler — cut it or replace it with a fact, mechanism, number, or consequence specific to this video. A line that's true of any script is doing no work in this one.
+
 ### Privileged-insight claims
 
 Do not assert clarity instead of demonstrating it.
 
 - ✗ "The reality is simpler and less flattering."
 - ✗ "The real story is..."
+
+### Interpretive metadiscourse
+
+Do not step outside the content to tell the viewer what to notice, how much weight to give it, or how to interpret it. This is distinct from filler — it's commentary about the script itself, layered on top of a point instead of the point doing the work.
+
+- ✗ "That last part matters more than it sounds."
+- ✗ "The key point is..."
+- ✗ "As you can see..."
+- ✗ "This distinction matters."
+
+If the point is already clear, delete the aside entirely. If it isn't clear, the fix is a fact, example, mechanism, or consequence — not a line assuring the viewer it's important.
+
+### Fake-profound kickers
+
+Do not end a section or video on a manufactured "deep" line — a cute metaphor, aphorism, or mic-drop sentence that turns a concrete point into forced poetry. This is a distinct failure from the formulaic closers in §3 below: those announce a conclusion, this one performs profundity.
+
+- ✗ Section ends on: "...and that's the real secret nobody talks about."
+- ✗ Section ends on: "In the end, it's not about the code. It's about the craft."
+
+Do not rewrite a fake-profound kicker into a better metaphor — cut it and end on the clearest concrete sentence already in the section (this is what the Payoff rules in the writer skills already require: land the lesson cleanly or leave an open loop, never a manufactured mic-drop).
 
 ### Grandiose stakes inflation
 
@@ -335,6 +362,8 @@ Avoid the **type** of word, not just the examples shown. Single use can work; cl
 
 **Fragment-paragraph spam** — do not use one-word or fragment "paragraphs" for manufactured emphasis. ("Platforms do." / "He published this. Openly. In a book. As a priest.") is an AI cadence, not a human one.
 
+**Synonym cycling** — once a term is established, keep using it. Do not rotate between synonyms for style points ("the agent reviews the draft, the assistant scores the piece, the tool suggests fixes" — that's one thing being called three names). Repetition of the correct word is clearer than variety for its own sake, and it's also easier to say out loud without tripping over an unfamiliar synonym mid-take.
+
 ---
 
 ## 6. Formatting tics (Tier B)
@@ -361,6 +390,6 @@ Avoid the **type** of word, not just the examples shown. Single use can work; cl
 
 ## Self-check — two passes before returning any prose
 
-**Pass 1 (Tier A):** scan your output for any §1 rhetorical pattern, §2 formulaic opener, or §3 formulaic closer. If any are present, rewrite the line. Non-negotiable, zero instances. The patterns that slip through most often: NEGATIVE PARALLELISM (especially the period-separated and disguised-reframe variants), ANAPHORA (3+ identical sentence openers), DECORATIVE LISTS (three-comma scene-painting), PATRONISING ANALOGY (even one is too many), PHANTOM-FUTURE PROJECTION.
+**Pass 1 (Tier A):** scan your output for any §1 rhetorical pattern, §2 formulaic opener, or §3 formulaic closer. If any are present, rewrite the line. Non-negotiable, zero instances. The patterns that slip through most often: NEGATIVE PARALLELISM (especially the period-separated and disguised-reframe variants), ANAPHORA (3+ identical sentence openers), DECORATIVE LISTS (three-comma scene-painting), PATRONISING ANALOGY (even one is too many), PHANTOM-FUTURE PROJECTION, FALSE SUSPENSE TRANSITIONS ("Here's..." including the colon-reveal variant — confirmed in live testing as one of the two most commonly missed patterns), TRIPLE COUNTDOWN ("Not X. Not Y. Just Z." — confirmed in live testing as the other).
 
 **Pass 2 (Tier B):** scan for clustering of §4 vocabulary, §5 structural patterns, or §6 formatting tics. If clustering is present, rewrite. Single isolated instances are acceptable. Both passes are required, not optional.
